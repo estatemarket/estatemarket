@@ -1,3 +1,5 @@
 name: Real EstateMarket
 markdown: redcarpet
 pygments: true
+
+baseurl:  /estatemarket
