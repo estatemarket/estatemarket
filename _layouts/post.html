@@ -2,13 +2,12 @@
 layout: clean
 ---
 
-<div class="row">
-  <div class="col-md-4 col-md-offset-4">
-		<h2>{{ page.title }}</h2>
-		<p class="meta">{{ page.date | date_to_string }}</p>
 
-		<div class="post">
-		{{ content }}
-		</div>
+<div class="col-md-4 col-md-offset-4">
+	<h2>{{ page.title }}</h2>
+	<p class="meta">{{ page.date | date_to_string }}</p>
+
+	<div class="post">
+	{{ content }}
 	</div>
 </div>
